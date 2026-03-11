@@ -1,0 +1,19 @@
+{
+  "id": 1,
+  "name": "Mohanad Ahmed Shehata",
+  "title": "Full Stack Web Developer (React.js - Laravel)",
+  "avatar": "/Mo.webp",
+  "email": "mohandahmed015529.222.00@gmail.com",
+  "contact_email": "mohandahmed015529.222.00@gmail.com",
+  "phone": "+20 1150949593",
+  "birthday": "2004-09-30",
+  "location": "Giza, Egypt",
+  "about": "I am Mohanad Ahmed Shehata, a Full Stack Web Developer (React.js and Laravel). I build scalable, efficient, and secure web applications with a strong focus on performance and user experience.\n\nI have hands-on experience in frontend and backend development using HTML, CSS, JavaScript, React.js, PHP, Laravel, and MySQL. I also use Python and C++ when needed to deliver complete technical solutions.\n\nI am also interested in IoT integrations, including sensors, microcontrollers, real-time data processing, and dashboard-based visualization.",
+  "social_links": {
+    "facebook": "https://www.facebook.com/MohanadAhmed2004",
+    "instagram": "https://www.instagram.com/MohanadAhmed2004",
+    "github": "https://github.com/m-o-h-a-n-d",
+    "linkedin": "https://www.linkedin.com/in/mohannad-ahmed11"
+  },
+  "map_embed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8232.513091462484!2d31.1496276107887!3d29.975492912529056!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458458ad5f37dd1%3A0x8d31784cca08390!2z2LLZitmGINmF2LfYp9ix2YrYr9iMINmD2YHYsSDYp9mE2KzYqNmE2Iwg2KfZhNmH2LHZhdiMINmF2K3Yp9mB2LjYqSDYp9mE2KzZitiy2KkgMzUyMDQ2Mg!5e0!3m2!1sar!2seg!4v1768127285600!5m2!1sar!2seg"
+}

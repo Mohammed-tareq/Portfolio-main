@@ -1,0 +1,11 @@
+{
+  "team": [
+    {
+      "id": 1,
+      "name": "Mohammed Tarek",
+      "track": "Backend Developer (Laravel) ",
+      "logo": "/team/Mohamed.png",
+      "url": "https://www.linkedin.com/in/mohammed-t-603177250/"
+    }
+  ]
+}

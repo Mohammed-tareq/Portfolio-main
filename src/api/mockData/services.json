@@ -1,0 +1,28 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Front-end Development",
+      "description": "Creating modern and responsive web interfaces using HTML, CSS, JavaScript, and frameworks like React.",
+      "icon": "frontend"
+    },
+    {
+      "id": 2,
+      "title": "Backend Development",
+      "description": "Building robust server-side applications, APIs, and databases for professional web projects.",
+      "icon": "backend"
+    },
+    {
+      "id": 3,
+      "title": "IoT Solutions",
+      "description": "Integrating IoT devices with software systems to create smart and connected applications.",
+      "icon": "iot"
+    },
+    {
+      "id": 4,
+      "title": "UI & UX Design",
+      "description": "Designing intuitive and engaging user interfaces with seamless user experiences for web and mobile applications.",
+      "icon": "uiux"
+    }
+  ]
+}

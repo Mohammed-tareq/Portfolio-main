@@ -1,0 +1,15 @@
+{
+  "posts": [
+  
+    {
+      "id": 1,
+      "title": "Parking Iot System  And  Web App Development",
+      "category": "Development",
+      "date": "2025-12-28",
+      "image": "/images/iot.webp",
+      "excerpt": " Smart Parking System : A fully integrated, intelligent solution for automated parking management. : ",
+      "content": "Full blog post content here...",
+      "link": "https://www.linkedin.com/posts/mohannad-ahmed11_smartparking-iot-laravel-activity-7409986207083810816-7AI-?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAERsl-MBWw7UeYsYyH1p62UEEGwJPivaE7M"
+    }
+  ]
+}
