@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, useRef } from 'react';
 import { createEcho } from '../echo';
-import { getAuthToken } from '../api/request';
+import { getAuthToken, isAuthenticated } from '../api/request';
 import { toast as sonnerToast } from 'sonner'; // Switching to Sonner for better reliability
 import { useAuth } from './AuthContext';
 
@@ -16,7 +16,8 @@ export const NotificationProvider = ({ children }) => {
   const fetchNotifications = async (options = {}) => {
     const { silent = false } = options;
     try {
-      if (!user?.id) {
+      // Only fetch if user is authenticated and has a valid ID
+      if (!user?.id || !isAuthenticated()) {
         setNotifications([]);
         setUnreadCount(0);
         return;
@@ -40,7 +41,10 @@ export const NotificationProvider = ({ children }) => {
       setNotifications(messages);
       setUnreadCount(messages.filter((m) => !m.read).length);
     } catch (error) {
-      console.error('Error fetching notifications:', error);
+      // Silently handle errors - notifications are optional
+      // Just set empty state and continue
+      setNotifications([]);
+      setUnreadCount(0);
     } finally {
       if (!hasLoadedRef.current) {
         setLoading(false);
