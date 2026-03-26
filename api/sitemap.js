@@ -1,5 +1,5 @@
-const BASE_URL = 'https://tarmohanadahmed.me';
-const API_URL = 'https://api.mohanadahmed.me/api/portfolio/';
+const BASE_URL = 'https://mohammedtareq.vercel.app/';
+const API_URL = 'https://tarek.mohanadahmed.me/api/portfolio/';
 
 const escapeXml = (value) =>
   String(value)
@@ -18,7 +18,7 @@ const fetchProjects = async () => {
       method: 'GET',
       headers: {
         Accept: 'application/json',
-        'User-Agent': 'mohanadahmed.me sitemap generator',
+        'User-Agent': 'mohammedtareq.vercel.app sitemap generator',
       },
       signal: controller.signal,
     });
