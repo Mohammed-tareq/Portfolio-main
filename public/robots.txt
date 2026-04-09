@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 
-Sitemap: https://mohanadahmed.me/sitemap.xml
+Sitemap: https://mohammedtareq.vercel.app/sitemap.xml

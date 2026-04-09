@@ -170,7 +170,7 @@ const AboutSection = ({ onShowAllCertificates, onShowAllTeam }) => {
                   <div className="relative w-full h-[140px] md:h-[160px] overflow-hidden bg-onyx">
 <img 
 	                      src={certificate.avatar} 
-	                      alt={`Certificate: ${certificate.name} - Mohanad Ahmed Shehata`} 
+	                      alt={`Certificate: ${certificate.name} - Mohammed Tareq`} 
 	                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
 	                    />
                     

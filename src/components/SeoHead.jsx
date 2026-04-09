@@ -46,7 +46,7 @@ const SeoHead = ({ name, jobTitle, websiteUrl, imageUrl, description }) => {
     "MOSOLVING"; // Default to MOSOLVING
 
   const finalName =
-    name || profileData?.name || "Mohanad Ahmed";
+    name || profileData?.name || "Mohammed Tareq";
 
   const finalJobTitle =
     jobTitle || profileData?.title || "Full Stack Web Developer";
@@ -68,7 +68,7 @@ const SeoHead = ({ name, jobTitle, websiteUrl, imageUrl, description }) => {
 
   // ✅ الدومين الأساسي
   const finalWebsiteUrl =
-    websiteUrl || "https://mohanadahmed.me/";
+    websiteUrl || "https://mohammedtareq.vercel.app/";
 
   const normalizeUrl = (url) => {
     if (!url || typeof url !== "string") return "";
@@ -90,7 +90,7 @@ const SeoHead = ({ name, jobTitle, websiteUrl, imageUrl, description }) => {
         settingsData?.logo ||
         settingsData?.site_identity?.logo_url ||
         settingsData?.site_identity?.logo
-    ) || "https://mohanadahmed.me/image.png";
+    ) || "https://mohammedtareq.vercel.app/image.png";
 
   const personStructuredData = {
     "@context": "https://schema.org",

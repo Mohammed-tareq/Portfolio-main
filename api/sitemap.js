@@ -1,5 +1,5 @@
-const BASE_URL = 'https://mohammedtareq.vercel.app/';
-const API_URL = 'https://tarek.mohanadahmed.me/api/portfolio/';
+const BASE_URL = 'https://mohammedtareq.vercel.app';
+const API_URL = 'https://api.mohammedtareq.vercel.app/api/portfolio/';
 
 const escapeXml = (value) =>
   String(value)

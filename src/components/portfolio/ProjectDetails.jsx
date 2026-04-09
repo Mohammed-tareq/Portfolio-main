@@ -81,10 +81,10 @@ const ProjectDetails = () => {
   };
 
   const projectImages = project.images || [project.image];
-  const pageTitle = `${project.title} | Mohanad Ahmed Shehata`;
+  const pageTitle = `${project.title} |  Mohammed Tareq`;
   const pageDescription = (project.short_desc || project.description || `Explore ${project.title} project details, technologies, and team members.`).slice(0, 155);
-  const canonicalUrl = `https://mohanadahmed.me/project/${encodeURIComponent(String(project.slug || project.id))}`;
-  const ogImage = project.image_cover || project.image || projectImages[0] || 'https://mohanadahmed.me/image.png';
+  const canonicalUrl = `https://mohammedtareq.vercel.app/project/${encodeURIComponent(String(project.slug || project.id))}`;
+  const ogImage = project.image_cover || project.image || projectImages[0] || 'https://mohammedtareq.vercel.app/image.png';
   const teamNames = projectTeam.map((member) => member.name).filter(Boolean);
   const projectStructuredData = {
     '@context': 'https://schema.org',
